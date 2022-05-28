@@ -62,13 +62,23 @@ const Home = (): ReactElement => {
         <meta property="og:description" content="Kazuya Yuuki" />
       </Head>
       <div className="container flex items-center justify-left h-screen bg-gray-900 text-red-500">
-        <div className="border-1 rounded-lg  ml-3 p-[20px] w-screen flex  flex-col justify-center h-[300px]">
-          <h1 className="md:text-9xl text-4xl hover:text-cyan-400 cursor-pointer font-semibold">
-            Kazuya Yuuki
+        <div className="border-1 rounded-lg  ml-3 p-[20px] w-full flex flex-col justify-center h-[300px]">
+         
+          <h1 className="md:text-9xl text-4xl font-semibold typing">
+            Kazuya
           </h1>
-          {/* <p className="mt-3 font-thin none ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi porro nisi saepe nesciunt est rerum?
-          </p> */}
+          <br />
+          <p className="mt-3 font-thin none ">
+            One Hell of a Developer, The world is build around trust and nothing
+            is more trustworthy than me.
+            <br />
+            Contact me for all your needs.
+            <br />
+            <br />
+            <span className="text-[12px]">
+              Though i will overcharge, keep in mind that i am a Professional.
+            </span>
+          </p>
         </div>
 
         <div>
