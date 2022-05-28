@@ -65,7 +65,7 @@ const Home = (): ReactElement => {
         <div className="border-1 rounded-lg  ml-3 p-[20px] w-full flex flex-col justify-center h-[300px]">
          
           <h1 className="md:text-9xl text-4xl font-semibold typing">
-            Kazuya
+            <strong>K</strong>AZUY<strong>A</strong>
           </h1>
           <br />
           <p className="mt-3 font-thin none ">
